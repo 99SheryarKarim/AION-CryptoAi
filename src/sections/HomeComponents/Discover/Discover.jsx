@@ -38,7 +38,7 @@ const Discover = () => {
       summary:
         "Institutional adoption accelerates as spot Bitcoin ETFs continue to attract significant capital inflows.",
       date: currentDate,
-      readTime: "3 min read",
+      // readTime: "3 min read",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ const Discover = () => {
       title: "Ethereum's Dencun Upgrade Reduces Layer-2 Transaction Costs",
       summary: "Transaction fees drop by up to 90% following the successful implementation of EIP-4844.",
       date: currentDate,
-      readTime: "4 min read",
+      // readTime: "4 min read",
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ const Discover = () => {
       title: "Stablecoin Market Cap Exceeds $160 Billion",
       summary: "Cross-border payment use cases drive growth as businesses seek faster settlement options.",
       date: currentDate,
-      readTime: "3 min read",
+      // readTime: "3 min read",
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ const Discover = () => {
       title: "Regulatory Clarity Emerges Across Global Markets",
       summary: "37 countries now have comprehensive crypto frameworks in place, providing certainty for businesses.",
       date: currentDate,
-      readTime: "5 min read",
+      // readTime: "5 min read",
     },
     {
       id: 5,
@@ -70,7 +70,7 @@ const Discover = () => {
       title: "DeFi TVL Grows 40% Year-to-Date",
       summary: "Total value locked reaches $95 billion across multiple blockchains as yield opportunities expand.",
       date: currentDate,
-      readTime: "4 min read",
+      // readTime: "4 min read",
     },
     {
       id: 6,
@@ -78,7 +78,7 @@ const Discover = () => {
       title: "Solana Ecosystem Surpasses 2 Million Daily Active Addresses",
       summary: "High-performance blockchain continues to challenge Ethereum's dominance in the smart contract space.",
       date: currentDate,
-      readTime: "3 min read",
+      // readTime: "3 min read",
     },
     {
       id: 7,
@@ -86,7 +86,7 @@ const Discover = () => {
       title: "Bitcoin Mining Becomes Greener with Renewable Energy Push",
       summary: "52% of global hash rate now powered by renewable energy sources as miners prioritize sustainability.",
       date: currentDate,
-      readTime: "4 min read",
+      // readTime: "4 min read",
     },
     {
       id: 8,
@@ -94,7 +94,7 @@ const Discover = () => {
       title: "Real-World Asset Tokenization Market Projected to Reach $16 Trillion",
       summary: "Institutional investors driving adoption of tokenized securities, real estate, and commodities.",
       date: currentDate,
-      readTime: "5 min read",
+      // readTime: "5 min read",
     },
     {
       id: 9,
@@ -102,7 +102,7 @@ const Discover = () => {
       title: "AI-Powered Trading Algorithms Outperform Traditional Strategies",
       summary: "Machine learning models show 23% better performance in volatile market conditions.",
       date: currentDate,
-      readTime: "4 min read",
+      // readTime: "4 min read",
     },
   ]
 
@@ -118,7 +118,7 @@ const Discover = () => {
           animate={leftInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <img src={discoverImage || "/placeholder.svg"} alt="Discover Crypto" className="discover-image" />
+          <img style={{marginTop:'80px'}} src={discoverImage || "/placeholder.svg"} alt="Discover Crypto" className="discover-image" />
         </motion.div>
 
         {/* Right Section - Text */}
@@ -139,9 +139,9 @@ const Discover = () => {
                 <div className="news-header">
                   <span className="news-category">{article.category}</span>
                   <div className="news-meta">
-                    <span className="news-date">{article.date}</span>
-                    <span className="news-dot">•</span>
-                    <span className="news-read-time">{article.readTime}</span>
+                    {/* <span className="news-date">{article.date}</span> */}
+                    {/* <span className="news-dot">•</span> */}
+                    {/* <span className="news-read-time">{article.readTime}</span> */}
                   </div>
                 </div>
                 <h3 className="news-title">{article.title}</h3>
