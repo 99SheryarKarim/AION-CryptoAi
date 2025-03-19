@@ -50,7 +50,7 @@ function Contact() {
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span className="contact-text">(406) 5XX-012X</span>
+                <span className="contact-text">XXXX-XXX-XX</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">✉️</span>
