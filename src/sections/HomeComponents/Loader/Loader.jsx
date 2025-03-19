@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import "./Loader.css"
+import "./loader.css"
 
 const Loader = ({ onLoadingComplete }) => {
   const [progress, setProgress] = useState(0)
@@ -63,4 +63,3 @@ const Loader = ({ onLoadingComplete }) => {
 }
 
 export default Loader
-
